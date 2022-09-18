@@ -11,3 +11,15 @@ nest g cl supermarket/supermarket.entity --no-spec
 
 Install type ORM 
 npm install --save @nestjs/typeorm typeorm
+
+
+comandos para la logica de negocio 
+
+nest g s city
+nest g s supermarket
+
+Crear asociación  modulo 
+nest g mo city-supermarket
+
+Crear asociacion service 
+nest g s city-supermarket
