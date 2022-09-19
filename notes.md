@@ -23,3 +23,18 @@ nest g mo city-supermarket
 
 Crear asociacion service 
 nest g s city-supermarket
+
+Comando para controladores 
+
+nest g co city --no-spec
+nest g co supermarket --no-spec
+nest g co city-supermarket
+
+
+Crear dto 
+
+nest g cl city.dto --no-spec
+nest g cl supermarket.dto --no-spec
+nest g cl city-supermarket
+
+
